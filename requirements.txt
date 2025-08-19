@@ -2,5 +2,5 @@ wagtail>=6.3
 pytest==8.4.1
 pytest-cov==6.2.1
 pytest-django==4.11.1
-coverage==7.10.4
+coverage==7.6.1
 tox-gh-actions>=3.3.0
