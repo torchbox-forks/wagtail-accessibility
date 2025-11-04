@@ -7,15 +7,14 @@ with open("README.md", encoding="utf-8") as readme_file:
 
 
 install_requires = [
-    'wagtail>=5.2',
+    'wagtail>=6.3',
 ]
 
 tests_require = [
-    "pytest==6.2.5",
-    "pytest-cov==3.0.0",
-    "pytest-django==4.5.0",
-    "pytest-pythonpath==0.7.3",
-    "coverage==6.0",
+    "pytest==8.4.1",
+    "pytest-cov==6.2.1",
+    "pytest-django==4.11.1",
+    "coverage==7.6.1",
 ]
 
 setup(
@@ -58,11 +57,9 @@ setup(
         'Programming Language :: Python :: 3.13',
         "Framework :: Django",
         "Framework :: Django :: 4.2",
-        "Framework :: Django :: 5.0",
         "Framework :: Django :: 5.1",
         "Framework :: Django :: 5.2",
         "Framework :: Wagtail",
-        "Framework :: Wagtail :: 5",
         "Framework :: Wagtail :: 6",
         "Framework :: Wagtail :: 7",
         'License :: OSI Approved :: BSD License',
