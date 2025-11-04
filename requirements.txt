@@ -1,4 +1,4 @@
-wagtail>=6.3
+wagtail>=7.0
 pytest==8.4.1
 pytest-cov==6.2.1
 pytest-django==4.11.1

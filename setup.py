@@ -7,7 +7,7 @@ with open("README.md", encoding="utf-8") as readme_file:
 
 
 install_requires = [
-    'wagtail>=6.3',
+    'wagtail>=7.0',
 ]
 
 tests_require = [
@@ -50,17 +50,16 @@ setup(
         'Topic :: Internet :: WWW/HTTP :: Site Management',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: 3.12',
         'Programming Language :: Python :: 3.13',
+        'Programming Language :: Python :: 3.14',
         "Framework :: Django",
         "Framework :: Django :: 4.2",
         "Framework :: Django :: 5.1",
         "Framework :: Django :: 5.2",
         "Framework :: Wagtail",
-        "Framework :: Wagtail :: 6",
         "Framework :: Wagtail :: 7",
         'License :: OSI Approved :: BSD License',
     ],
